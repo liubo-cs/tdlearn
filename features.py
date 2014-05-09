@@ -4,7 +4,7 @@ Feature function implementations
 """
 __author__ = "Christoph Dann <cdann@cdann.de>"
 import numpy as np
-#import swingup_ode as cyhelp
+import swingup_ode as cyhelp
 
 def make_slice(l, u, n):
     return slice(l, u + float(u - l) / (n - 1) / 2., float(u - l) / (n - 1))

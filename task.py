@@ -189,6 +189,9 @@ class LinearValuePredictionTask(object):
                     param[i, k] = m.theta
                 i += 1
 
+                if np.fmod(i, 500) == 0:
+                    print "500 steps\n"
+
                 if i >= n_samples:
                     break
         return param

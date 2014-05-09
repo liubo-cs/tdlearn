@@ -11,8 +11,8 @@ import scipy.integrate
 import matplotlib.animation as animation
 import re
 import matplotlib.pyplot as plt
-#import pyximport; pyximport.install()
-#import swingup_ode
+# import pyximport; pyximport.install()
+import swingup_ode
 
 class GridWorld(mdp.MDP):
     """

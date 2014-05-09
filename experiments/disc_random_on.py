@@ -54,7 +54,7 @@ methods.append(tdc)
 
 '''
 my code here
-'''
+
 alpha = .5
 mu = 1.
 gtd = td.GTD2MP(alpha=alpha, beta=mu * alpha, phi=phi)
@@ -69,7 +69,7 @@ tdc.name = r"TDC-MP $\alpha$={} $\mu$={}".format(alpha, mu)
 tdc.color = "k"
 methods.append(tdc)
 
-'''
+
 ENDOF my code 
 '''
 
