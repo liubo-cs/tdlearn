@@ -13,6 +13,7 @@ import policies
 from task import LinearLQRValuePredictionTask
 import pickle
 
+
 gamma = 0.95
 sigma = np.array([0.] * 3 + [0.01])
 dt = 0.1
